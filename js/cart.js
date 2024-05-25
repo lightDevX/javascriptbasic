@@ -1,1 +1,3 @@
-alert("Card Shows");
+let cartQuantity = 0;
+
+showQuantity = cartQuantity;
