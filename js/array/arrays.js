@@ -5,3 +5,38 @@ const cars = [
 ];
 
 console.log(cars.includes("Volvo")); // true
+console.log(cars.sort());
+
+let size = cars.length;
+
+console.log(size); // 3
+
+cars.push("Audi");
+
+console.log(cars); // [ 'BMW', 'Saab', 'Volvo', 'Audi' ]
+
+cars.pop();
+
+console.log(cars); // [ 'BMW', 'Saab', 'Volvo' ]
+
+cars.shift();
+
+console.log(cars); // [ 'Saab', 'Volvo' ]
+
+cars.unshift("Audi");
+
+console.log(cars); // [ 'Audi', 'Saab', 'Volvo' ]
+
+cars.splice(1, 0, "BMW");
+
+console.log(cars); // [ 'Audi', 'BMW', 'Saab', 'Volvo' ]
+
+cars.splice(1, 1);
+
+console.log(cars); // [ 'Audi', 'Saab', 'Volvo' ]
+
+cars.toString();
+
+console.log(cars); // [ 'Audi', 'Saab', 'Volvo' ]
+
+
