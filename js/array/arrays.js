@@ -39,4 +39,7 @@ cars.toString();
 
 console.log(cars); // [ 'Audi', 'Saab', 'Volvo' ]
 
+cars.join(" * ");
+
+console.log(cars); // [ 'Audi', 'Saab', 'Volvo' ]
 
