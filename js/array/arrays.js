@@ -51,3 +51,7 @@ cars.forEach((car, index) => {
 });
 
 console.log(cars.map((car) => car.toUpperCase()));
+
+length = cars.length;
+
+console.log(length); // 3
