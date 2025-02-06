@@ -43,9 +43,6 @@ cars.join(" * ");
 
 console.log(cars); // [ 'Audi', 'Saab', 'Volvo' ]
 
-console.log(cars.concat(["BMW", "Mercedes"])); // [ 'Audi', 'Saab', 'Volvo', 'BMW', 'Mercedes' ]
-
-console.log(cars);
 cars.forEach((car, index) => {
     console.log(index, car);
 });
