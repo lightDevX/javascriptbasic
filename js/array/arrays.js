@@ -52,3 +52,8 @@ console.log(cars.map((car) => car.toUpperCase()));
 length = cars.length;
 
 console.log(length); // 3
+
+
+for (const car of cars) {
+    console.log(car);
+}
