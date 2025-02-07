@@ -57,3 +57,5 @@ console.log(length); // 3
 for (const car of cars) {
     console.log(car);
 }
+
+console.log(cars.indexOf("Saab")); // 1
