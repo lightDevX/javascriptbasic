@@ -29,3 +29,4 @@ words.forEach(word => {
 const capitalizedSentence = capitalizedWords.join(" ");
 
 console.log(capitalizedSentence);
+
