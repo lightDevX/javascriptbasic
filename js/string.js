@@ -16,3 +16,16 @@ const alphabetArray = alphabetSet.split('');
 const vowels = alphabetArray.filter(letter => ['a', 'e', 'i', 'o', 'u'].includes(letter));
 
 console.log(vowels.length);
+
+const letter = "This is maohib bin hasan";
+
+const words = letter.split(" ");
+let capitalizedWords = [];
+
+words.forEach(word => {
+    capitalizedWords.push(word.charAt(0).toUpperCase() + word.slice(1));
+});
+
+const capitalizedSentence = capitalizedWords.join(" ");
+
+console.log(capitalizedSentence);
