@@ -59,3 +59,9 @@ for (const car of cars) {
 }
 
 console.log(cars.indexOf("Saab")); // 1
+
+const numbers = [45, 4, 9, 16, 25];
+
+const numbersSort = [...numbers].sort((a, b) => a - b);
+
+console.log(numbersSort); // [ 4, 9, 16, 25, 45 ]
