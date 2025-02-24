@@ -24,3 +24,4 @@ function countZero() {
 const result = countZero(binaryString);
 
 console.log(result);
+
