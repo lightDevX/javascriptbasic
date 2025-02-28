@@ -8,3 +8,23 @@ document.getElementById('btn-post').addEventListener('click', function () {
     commentBox.value = '';
 
 });
+
+
+document.getElementById('confirmDelete').addEventListener('keyup', function (event) {
+    const text = event.target.value.toUpperCase();
+    const btnDelete = document.getElementById('btnDelete');
+
+    if (text === 'DELETE') {
+        btnDelete.removeAttribute('disabled');
+    } else {
+        btnDelete.setAttribute('disabled', 'true');
+    }
+
+});
+
+// document.getElementById('btnDelete').addEventListener('click', function () {
+//     const confirmDelete = document.getElementById('confirmDelete');
+
+
+
+// })
