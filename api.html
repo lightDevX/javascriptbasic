@@ -5,12 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>API</title>
   </head>
+  <style>
+    #post-list {
+      div {
+        gap: 25px;
+        background-color: burlywood;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 30px;
+        color: aliceblue;
+      }
+    }
+  </style>
   <body>
-    <button onclick="loadUserData()">User Load</button>
+    <div>
+      <button onclick="loadUserData()">User Load</button>
+      <button onclick="loadPostData()">Load Post Data</button>
 
-    <div class="user-container">
-      <ul id="user-list"></ul>
+      <div class="user-container">
+        <ul id="user-list"></ul>
+      </div>
+
+      <div class="post-container">
+        <div id="post-list"></div>
+      </div>
     </div>
+
+    <div class="coments-container">
+      <button onclick="loadComments()">Load Commnets</button>
+      <div id="comments-lish"></div>
+    </div>
+
     <script src="./js/api/api.js"></script>
   </body>
 </html>
